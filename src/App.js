@@ -37,7 +37,7 @@ function App() {
     setSidebarOpen(false);
   };
   return (
-    <div className="bg-[hsl(36,100%,99%)] grow font-inter xl:px-24 xl:py-12 grid">
+    <div className="bg-[hsl(36,100%,99%)] grow font-inter xl:px-24 xl:py-12 grid max-w-[1280px]">
       <Header showSidebar={openSidebar} mobileView={mobileView} />
       {sidebarOpen && <Modal closeSidebar={closeSidebar} />}
       <Body mobileView={mobileView} />
