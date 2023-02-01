@@ -6,7 +6,7 @@ import NavMenu from "./NavMenu";
 
 function Header(props) {
   return (
-    <header className="grid grid-cols-[3fr_2fr] px-4 py-8 gap-4 items-center justify-between xl:max-h-24 xl:px-4 xl:py-0">
+    <header className="grid grid-cols-[3fr_2fr] px-4 py-8 gap-4 items-center justify-between xl:max-h-24 xl:px-4 xl:py-0 xl:pb-4">
       <img src={logo} alt="" className="w-12" />
       <img
         src={menuIcon}
